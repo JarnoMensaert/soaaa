@@ -16,7 +16,7 @@ public class ApiControllers {
         return  "Welcome to the currency exchange page.<br><br>" +
                 "To get a list of all the available currencies, go to /currencies <br>" +
                 "To get the value of 1 euro in a currency, go to /currency/{name} <br>" +
-                "To add a currency, go to /new <br>" +
+                "To add a currency, go to /new and add name and value as json body <br>" +
                 "To delete a currency, go to /delete/{name} <br>" +
                 "To update a currency, go to /update/{name}/{value} <br>";
     }
